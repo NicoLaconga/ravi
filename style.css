@@ -1,15 +1,38 @@
 body {
-    background-color: #5da2f0;
-  }
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(90deg, rgb(47, 46, 65) 0%, rgb(29, 29, 172) 35%, rgba(0,212,255,1) 100%);
+}
+
+h1 {
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
+h2{
+  font-style: italic;
+  color:bisque;
+  text-align: center;
   
-  h1 {
-    font-style: italic;
-    color: white;
-    text-align: center;
-  }
-  h2{
-    font-style: italic;
-    color:bisque;
-    text-align: center;
-    
-  }
+}
+
+.imagen1 {
+  width: 350px;
+  height: 250px;
+  
+}
+
+.imagen2 {
+  width: 350px;
+  height: 250px;
+  
+}
+
+.imagen3 {
+  width: 350px;
+  height: 250px;
+  
+}
+.contenedor{
+  display: flex;
+  justify-content: center;
+}
